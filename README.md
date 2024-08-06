@@ -25,9 +25,11 @@ The Campaign Media Planning application is designed to assist media planners in 
 3.Access the application:         
   Open your web browser and navigate to https://localhost:5160.
 
-**Contact**
-For any questions or suggestions, please contact:
-Name: Rachana Erannaswami
-Email: rachanamath203@gmail.com
+**Contact**               
+For any questions or suggestions, please contact:             
+•	Name: Rachana Erannaswami    
+•	Email: rachanamath203@gmail.com          
+•	LinkedIn: https://www.linkedin.com/in/rachana-math-1a8939171/
+
 
 
