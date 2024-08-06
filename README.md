@@ -5,12 +5,13 @@ The Campaign Media Planning application is designed to assist media planners in 
 2.User-Friendly Interface: Intuitive web-based user interface for entering campaign details and viewing results.
 3.Comprehensive Calculations: Considers agency fees, third-party tool fees, and fixed costs for agency hours in the budget calculation.
 
-**Technical Details**
-Framework: ASP.NET Core MVC
-Languages: C#
-Algorithm: Goal Seek
-UI: HTML, CSS, and JavaScript
-Platform
+**Technical Details**            
+•	Framework: ASP.NET Core MVC           
+•	Languages: C#                    
+•	Algorithm: Goal Seek      
+•	UI: HTML, CSS, and JavaScript           
+•	Platform: Cross-platform support with .NET Core
+
 
 **Installation**
 1.Clone the repository:
