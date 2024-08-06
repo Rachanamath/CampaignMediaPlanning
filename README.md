@@ -15,7 +15,7 @@ The Campaign Media Planning application is designed to assist media planners in 
 
 **Installation**                 
 1.Clone the repository:         
-  git clone https://github.com/Rachanamath/CampaignMediaPlanning.git
+  git clone https://github.com/Rachanamath/CampaignMediaPlanning.git                 
   cd CampaignMediaPlanning
 
 2.Build and run the application:        
