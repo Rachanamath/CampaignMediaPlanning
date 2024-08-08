@@ -1,5 +1,4 @@
-﻿
-@model MediaPlanning.Models.BudgetViewModel
+﻿@model MediaPlanning.Models.BudgetViewModel
 
 @{
     ViewData["Title"] = "Index";
@@ -11,28 +10,40 @@
     <div>
         <label>Total Campaign Budget (Z):</label>
         <input asp-for="TotalBudget" />
+        <span asp-validation-for="TotalBudget" class="text-danger"></span>
     </div><br />
     <div>
         <label>Agency Fee Percentage (Y1):</label>
         <input asp-for="AgencyFeePercentage" />
+        <span asp-validation-for="AgencyFeePercentage" class="text-danger"></span>
     </div><br />
     <div>
         <label>Third-Party Tool Fee Percentage (Y2):</label>
         <input asp-for="ThirdPartyFeePercentage" />
+        <span asp-validation-for="ThirdPartyFeePercentage" class="text-danger"></span>
     </div><br />
     <div>
         <label>Fixed Cost for Agency Hours (HOURS):</label>
         <input asp-for="FixedAgencyHoursCost" />
+        <span asp-validation-for="FixedAgencyHoursCost" class="text-danger"></span>
     </div><br />
     <div>
         <label>Sum of Budgets for Other Ads (X1 + X2 + X4):</label>
         <input asp-for="OtherAdsTotal" />
+        <span asp-validation-for="OtherAdsTotal" class="text-danger"></span>
     </div><br />
     <div>
         <label>Initial Guess for the Specific Ad Budget:</label>
         <input asp-for="InitialGuess" />
+        <span asp-validation-for="InitialGuess" class="text-danger"></span>
     </div><br />
     <div>
         <button type="submit" style="background-color: darkblue; color:white">Calculate</button>
     </div>
 </form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
